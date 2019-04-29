@@ -2276,15 +2276,19 @@ body {
 }
 
 .googleplaybutton {
-    float: left;
-    margin-left: 3%;
-    width: 45%;
+    width: 35%;
+    height: auto;
+    cursor: pointer;
 }
 
 .appstorebutton {
-    width: 45%;
-    margin-right: 3%;
-    float: right;
+    width: 35%;
+    height: auto;
+    cursor: pointer;
+}
+
+.windowsbutton {
+    width: 35%;
     height: auto;
     cursor: pointer;
 }
@@ -2301,8 +2305,16 @@ body {
     padding: 5px;
 }
 
+.windowsbutton img {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+}
+
 .stores {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer
